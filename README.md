@@ -1,0 +1,1 @@
+# smpnegeri1sindang
