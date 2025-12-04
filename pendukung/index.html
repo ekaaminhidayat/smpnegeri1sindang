@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMPN 1 SINDANG</title>
+
+<!-- LINK CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- VIDEO BACKGROUND -->
+<video autoplay muted loop id="bgVideo">
+  <source src="VN20251012_064140.mp4" type="video/mp4">
+  Browser Anda tidak mendukung video.
+</video>
+
+<!-- MUSIK -->
+<audio id="bgMusic" autoplay loop>
+  <source src="DJ MASHUP.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn">MUSIK ON/OFF</button>
+
+<header>
+  <div style="display:flex; align-items:center;">
+    <img src="logo nesasin.png" alt="Logo SMPN 1 Sindang">
+    <div class="header-text">
+      <h1>SMPN 1 SINDANG</h1>
+      <p>BERAKSI</p>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#profil" class="active">Profil</a>
+    <a href="#guru">Guru</a>
+    <a href="#fasilitas">Fasilitas</a>
+    <a href="#eskul">Eskul</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+</header>
+
+<div class="container">
+
+<!-- PROFIL -->
+<section id="profil">
+  <h2>Profil Sekolah</h2>
+  <p class="lead">SMPN 1 Sindang BERAKSI adalah sekolah yang terus berkembang...</p>
+</section>
+
+<!-- DATA GURU -->
+<section id="guru">
+  <h2>Data Guru</h2>
+  <p class="lead">Berikut adalah daftar guru SMPN 1 Sindang.</p>
+
+  <div class="guru-grid">
+
+    <div class="guru-card">
+      <div class="guru-img"><img src="EKA.JPG" alt="Eka"></div>
+      <div class="guru-info"><h3>Eka</h3><p>Guru</p></div>
+    </div>
+
+    <div class="guru-card">
+      <div class="guru-img"><img src="ASEP.JPG" alt="Asep"></div>
+      <div class="guru-info"><h3>Asep</h3><p>Guru</p></div>
+    </div>
+
+    <div class="guru-card">
+      <div class="guru-img"><img src="DEDEN.JPG" alt="Deden"></div>
+      <div class="guru-info"><h3>Deden</h3><p>Guru</p></div>
+    </div>
+
+    <div class="guru-card">
+      <div class="guru-img"><img src="ARIF.JPG" alt="Arif"></div>
+      <div class="guru-info"><h3>Arif</h3><p>Guru</p></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FASILITAS -->
+<section id="fasilitas">
+  <h2>Fasilitas Sekolah</h2>
+  <div class="fasilitas-grid">
+
+    <div class="fasilitas-box"><img src="OSIS.jpeg"><p>Ruang OSIS</p></div>
+    <div class="fasilitas-box"><img src="PRAMUKA.jpeg"><p>Ruang Pramuka</p></div>
+    <div class="fasilitas-box"><img src="PMR.jpeg"><p>Ruang PMR</p></div>
+    <div class="fasilitas-box"><img src="Kesenian.jpeg"><p>Ruang Kesenian</p></div>
+    <div class="fasilitas-box"><img src="LabIPA.jpeg"><p>Lab IPA</p></div>
+
+  </div>
+</section>
+
+<!-- ESKUL -->
+<section id="eskul">
+  <h2>Ekstrakurikuler</h2>
+  <div class="eskul-scroll">
+
+    <div class="eskul-card"><img src="zaskia.jpeg"><p>Pramuka</p></div>
+    <div class="eskul-card"><img src="osis.jpeg"><p>OSIS</p></div>
+    <div class="eskul-card"><img src="mpk.jpeg"><p>MPK</p></div>
+    <div class="eskul-card"><img src="pmr.jpeg"><p>PMR</p></div>
+
+  </div>
+</section>
+
+<!-- GALERI -->
+<section id="galeri">
+  <h2>Galeri Kegiatan</h2>
+  <p class="lead">Dokumentasi berbagai kegiatan SMPN 1 Sindang.</p>
+
+  <div class="gallery-scroll">
+
+    <div class="gallery-card"><img src="LADIS PRAMUKA.jpeg" alt=""></div>
+    <div class="gallery-card"><img src="UPACARA.jpeg" alt=""></div>
+    <div class="gallery-card"><img src="LOMBA.jpeg" alt=""></div>
+
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section id="video-selection">
+  <h2>Video NESASIN</h2>
+
+  <div class="media-container">
+
+    <div class="video-item">
+      <video controls src="VN20240912_020700.mp4"></video>
+      <p>Keterangan: Video Profil</p>
+    </div>
+
+    <div class="video-item">
+      <video controls src="VID20241001.mp4"></video>
+      <p>Kegiatan Sekolah</p>
+    </div>
+
+  </div>
+
+</section>
+
+</div>
+
+<!-- SCRIPT -->
+<script src="script.js"></script>
+</body>
+</html>
